@@ -1,0 +1,34 @@
+# Eclipse
+.classpath
+.project
+.settings/
+service/src/main/resources/application-secrets.yml
+
+# Intellij
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+integration-tests/bin/
+
+# Application Secrets
+web/src/main/resources/application-secrets.yml
+integration-tests/src/test/resources/application-secrets.yml
+web/src/main/resources/certificate/
+
+# Groovy
+build/
+
+# Logging
+*.log
+
+common/bin/
+/bin/
+web/src/main/resources/logback.xml
